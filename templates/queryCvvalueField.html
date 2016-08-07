@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="{{static_url('js/jquery-3.0.0.min.js')}}"></script>
+    <script src="{{ static_url('js/queryCvvalueField.js')}}"></script>
+</head>
+<body>
+<form method="POST" >
+     {% raw xsrf_form_html() %}
+    <div>
+    <input placeholder="值域" name="值域" id="cv_value_field">
+        <input type="BUTTON" value="查询" id="query_cv_cvalue_field" />
+    </div>
+    <div>
+        <textarea  rows="20" cols="80" id="text_area"></textarea>
+    </div>
+</form>
+</body>
+</html>
