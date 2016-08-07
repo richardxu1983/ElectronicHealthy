@@ -1,0 +1,153 @@
+<div class="userManger">
+							<div class="usermange-banner">
+								<div class="usermange-banner-search">
+									<div class="inputwrap search-input"><i class="fa fa-search">&nbsp;</i><input type="text" name="username-search" id="username-search" class="input-noborder"></div>
+									<button id="username-search-trigger" class="btn btn-success"><i class="fa fa-mail-forward">&nbsp;</i>查询</button>
+								</div>
+								<div class="userMange-oprate">
+									<div class="inputwrap revise-userpassword">
+										<i class="fa fa-lock">&nbsp;</i>
+										<input type="text" name="" class="input-noborder">
+									</div>
+									<div class="inputwrap revise-useremail">
+										<i class="fa fa-envelope-o">&nbsp;</i>
+										<input type="text" name="" class="input-noborder">
+									</div>
+									<div class="inputwrap" style="">
+										是否激活:&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="isstate">
+									</div>
+									<div class="" style="float:left;padding:6px;">
+										<button class="btn btn-success"><i class="fa fa-plus">&nbsp;</i>修改</button>
+									</div>
+								</div>
+								<div class="usermange-banner-oprate">
+									<button id="addNewUser" class="btn btn-primary"><i class="fa fa-plus">&nbsp;</i>新增用户</button>
+									<button id="saveUserToExcel" class="btn btn-info"><i class="fa fa-file-excel-o">&nbsp;</i>生成EXCEL</button>
+								</div>
+							</div>
+							<div class="userlist">
+								<table class="userlist-table table table-bordered table-striped table-hover">
+									<thead>
+										<td class=""><label class="checkbox-label"><input type="checkbox" name="">全选</label></td>
+										<td class="">序号</td>
+										<td class="">用户名</td>
+										<td class="">密码</td>
+										<td class="">邮件地址</td>
+										<td class="">状态</td>
+									</thead>
+									<tr>
+										<td class="select-td" ><label class="checkbox-label"><input type="checkbox" name=""></label></td>
+										<td class="userNum">1</td>
+										<td class="userName">许xx</td>
+										<td class="userPassword"></td>
+										<td class="userEmail">12346578@qq.com</td>
+										<td class="userstate">未激活</td>
+									</tr>
+									<tr>
+										<td class="select-td" ><label class="checkbox-label"><input type="checkbox" name=""></label></td>
+										<td class="userNum">1</td>
+										<td class="userName">许xx</td>
+										<td class="userPassword"></td>
+										<td class="userEmail">12346578@qq.com</td>
+										<td class="userstate">未激活</td>
+									</tr>
+									<tr>
+										<td class="select-td" ><label class="checkbox-label"><input type="checkbox" name=""></label></td>
+										<td class="userNum">1</td>
+										<td class="userName">许xx</td>
+										<td class="userPassword"></td>
+										<td class="userEmail">12346578@qq.com</td>
+										<td class="userstate">未激活</td>
+									</tr>
+									<tr>
+										<td class="select-td" ><label class="checkbox-label"><input type="checkbox" name=""></label></td>
+										<td class="userNum">1</td>
+										<td class="userName">许xx</td>
+										<td class="userPassword"></td>
+										<td class="userEmail">12346578@qq.com</td>
+										<td class="userstate">未激活</td>
+									</tr>
+									<tr>
+										<td class="select-td" ><label class="checkbox-label"><input type="checkbox" name=""></label></td>
+										<td class="userNum">1</td>
+										<td class="userName">许xx</td>
+										<td class="userPassword"></td>
+										<td class="userEmail">12346578@qq.com</td>
+										<td class="userstate">未激活</td>
+									</tr>
+									<tr>
+										<td class="select-td" ><label class="checkbox-label"><input type="checkbox" name=""></label></td>
+										<td class="userNum">1</td>
+										<td class="userName">许xx</td>
+										<td class="userPassword"></td>
+										<td class="userEmail">12346578@qq.com</td>
+										<td class="userstate">未激活</td>
+									</tr>
+								</table>
+								<div class="addNewUeser-content ">
+										<label class="input-group-inline">
+											<i class="fa fa-user"></i>
+											用户名
+											<input type="text" name="">
+										</label>
+										<label class="input-group-inline">
+											<i class="fa fa-lock"></i>
+											密码
+											<input type="text" name="">
+										</label>
+										<label class="input-group-inline">
+											<i class="fa fa-envelope-o"></i>
+											邮箱
+											<input type="text" name="">
+										</label>
+										<label class="input-group-inline">
+											<button class="btn btn-success"><i class="fa fa-plus">&nbsp;</i>添加</button>
+										</label>
+										<label class="input-group-inline">从EXCEL导入:
+										<input type="file" name="" class="input-file">
+										<button class="btn btn-info"><i class="fa fa-file"></i>导入</button></label>
+										<label>
+
+										</label>
+								</div>
+							</div>
+							<nav class="absolute-bottom">
+							  <ul class="pagination">
+							    <li class="first-pagination">
+							      <a href="#" aria-label="Previous">
+							        <span aria-hidden="true">&laquo;</span>
+							      </a>
+							    </li>
+							    <li><a href="#">1</a></li>
+							    <li><a href="#">2</a></li>
+							    <li><a href="#">3</a></li>
+							    <li><a href="#">4</a></li>
+							    <li><a href="#">5</a></li>
+							    <li class="last-pagination">
+							      <a href="#" aria-label="Next">
+							        <span aria-hidden="true">&raquo;</span>
+							      </a>
+							    </li>
+							  </ul>
+							  <div class="skip-page">
+							  	<input type="number" name="page" id="" class="form-control skip-page-number" >
+							  	<button class="btn btn-info"><i class="fa fa-send">&nbsp;</i>跳转</button>
+							  </div>
+							</nav>
+						</div>
+<script type="text/javascript">
+	$(function () {
+		$("#username-search-trigger").on('click', function(event) {
+			event.preventDefault();
+			var username_search = $("#username-search")
+			var username_search_value = username_search.val();
+			$.ajax({
+				url: '',
+				type: 'post',
+				data: {username: username_search_value},
+
+			})
+
+		});
+	})
+</script>

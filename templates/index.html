@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>管理</title>
+	<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="{{static_url('css/bootstrap-myself.css')}}">
+<link rel="stylesheet" type="text/css" href="{{static_url('css/jquery-ui.min.css')}}">
+<link rel="stylesheet" type="text/css" href="{{static_url('css/cssreset.css')}}">
+<link rel="stylesheet" type="text/css" href="{{static_url('less/test.css')}}">
+<link rel="stylesheet" type="text/css" href="{{static_url('css/font-awesome.min.css')}}">
+<script type="text/javascript" src="{{static_url('js/jquery-3.0.0.min.js')}}"></script>
+<script type="text/javascript" src="{{static_url('js/jquery-ui.min.js')}}"></script>
+</head>
+<body>
+	<div id="mainbox">
+		<div id="header" >
+			<div class="header-content fix" >
+				<div class="logo">
+					<img src="{{static_url('img/logo.jpg')}}" class="logoimg">
+					<span class="title">电子健康档案信息管理系统</span>
+					<span class="system-version">v1.0.23</span>
+				</div>
+				<div class="user">
+					<a href="" class="chat-message"><i class="fa fa-commenting">&nbsp;</i><span class="badge">5</span></a>
+					<a href="" class="chat-group"><i class="fa fa-group">&nbsp;</i></a>
+					<div class="dropdown user-operation">
+						<a class="user-show" href=".dropdown-menu"  data-parent = ".dropdown">
+							<i class="fa fa-user">&nbsp;</i>
+							<span class="username">张三</span>
+							<i class="fa fa-caret-down">&nbsp;</i>	
+						</a>
+						<div class="dropdown-menu user-hidden " style="display:none">
+							<a href="" style="border-bottom:1px solid #636363">修改资料</a>
+							<a href="/">注销</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="body">
+			<div class="body-content">
+				<ul class="sidenav">
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show "><i class="fa fa-desktop">&nbsp;</i><span class="sidenav-li-text">我的工作台</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show animation"><i class="fa fa-exchange">&nbsp;</i><span class="sidenav-li-text">转诊管理</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show "><i class="fa fa-file-text">&nbsp;</i><span class="sidenav-li-text">协议管理</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-briefcase">&nbsp;</i><span class="sidenav-li-text">接诊管理</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-bed">&nbsp;</i><span class="sidenav-li-text">床位管理</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-check-square-o">&nbsp;</i><span class="sidenav-li-text">审批管理</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-phone">&nbsp;</i><span class="sidenav-li-text">转前管理</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-institution">&nbsp;</i><span class="sidenav-li-text">政策法规</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-list-alt">&nbsp;</i><span class="sidenav-li-text">转诊日志</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-comment">&nbsp;</i><span class="sidenav-li-text">业务消息</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-bar-chart-o">&nbsp;</i><span class="sidenav-li-text">统计分析</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-book">&nbsp;</i><span class="sidenav-li-text">病种目录</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-database">&nbsp;</i><span class="sidenav-li-text">数据字典</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-gear">&nbsp;</i><span class="sidenav-li-text">系统设置</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+					<li class="sidenav-li ">
+						<div class="collapse-toggle sidenav-show"><i class="fa fa-user-plus">&nbsp;</i><span class="sidenav-li-text">用户管理</span><i class="state-icon fa fa-angle-right">&nbsp;</i></div>
+						<ul class="collapse sidenav-hidden" style="display:none">
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+							<li class="sidenav-hidden-li">2</li>
+						</ul>
+					</li>
+				</ul>
+				<div class="right-body">
+					<div class="breadcrumb-nav">
+						<i class="fa fa-home breadcrumb-nav-icon">&nbsp;</i>
+						<a href="" class="breadcrumb-li">导航1</a>
+						<a href="" class="breadcrumb-li">导航2</a>
+						<a href="" class="breadcrumb-li disabled" onclick="return false;">导航3</a>
+					</div>
+					<div class="content">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer-content">
+
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="{{static_url('js/index.js')}}"></script>
+<script>
+    $(".sidenav-hidden-li").on('click', function(event) {
+	event.preventDefault();
+	$(".content").html(" ");
+	$.ajax({
+		url: '/userManage',
+		type: "get",
+		dataType: "html",
+	})
+	.done(function(data) {
+		$(".content").html(data);
+	})
+	.fail(function() {
+		alert("加载失败");
+	})
+	.always(function() {
+		console.log("complete");
+	});
+ });
+</script>
+</html>

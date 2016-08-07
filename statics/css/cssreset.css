@@ -1,0 +1,74 @@
+/*
+KISSY CSS Reset
+ÀíÄî£ºÇå³ýºÍÖØÖÃÊÇ½ôÃÜ²»¿É·ÖµÄ
+ÌØÉ«£º1.ÊÊÓ¦ÖÐÎÄ 2.»ùÓÚ×îÐÂÖ÷Á÷ä¯ÀÀÆ÷
+Î¬»¤£ºÓñ²®(lifesinger@gmail.com), Õý´¾(ragecarrier@gmail.com)
+*/
+
+/* Çå³ýÄÚÍâ±ß¾à */
+body {
+    font-size: 0.625em;
+    line-height: 1.42857;
+    font-family: '微软雅黑',tahoma,helvetica,arial,'bitstream vera sans',sans-serif;
+}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements ½á¹¹ÔªËØ */
+dl, dt, dd, ul, ol, li, /* list elements ÁÐ±íÔªËØ */
+pre, /* text formatting elements ÎÄ±¾¸ñÊ½ÔªËØ */
+fieldset, lengend, button, input, textarea, /* form elements ±íµ¥ÔªËØ */
+th, td { /* table elements ±í¸ñÔªËØ */
+    margin: 0;
+    padding: 0;
+}
+
+/* ÉèÖÃÄ¬ÈÏ×ÖÌå */
+button, input, select, textarea { /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "ËÎÌå", sans-serif;*/
+    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; /* ÓÃ ascii ×Ö·û±íÊ¾£¬Ê¹µÃÔÚÈÎºÎ±àÂëÏÂ¶¼ÎÞÎÊÌâ */
+}
+
+h1 { font-size: 18px; /* 18px / 12px = 1.5 */ }
+h2 { font-size: 16px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+
+address, cite, dfn, em, var { font-style: normal; } /* ½«Ð±Ìå·öÕý */
+code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } /* Í³Ò»µÈ¿í×ÖÌå */
+small { font-size: 12px; } /* Ð¡ÓÚ 12px µÄÖÐÎÄºÜÄÑÔÄ¶Á£¬ÈÃ small Õý³£»¯ */
+
+/* ÖØÖÃÁÐ±íÔªËØ */
+ul, ol { list-style: none; }
+
+/* ÖØÖÃÎÄ±¾¸ñÊ½ÔªËØ */
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+abbr[title], acronym[title] { /* ×¢£º1.ie6 ²»Ö§³Ö abbr; 2.ÕâÀïÓÃÁËÊôÐÔÑ¡Ôñ·û£¬ie6 ÏÂÎÞÐ§¹û */
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+q:before, q:after { content: ''; }
+
+/* ÖØÖÃ±íµ¥ÔªËØ */
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: none; } /* img ´î³µ£ºÈÃÁ´½ÓÀïµÄ img ÎÞ±ß¿ò */
+/* ×¢£ºoptgroup ÎÞ·¨·öÕý */
+button, input, select, textarea {
+    font-size: 100%; /* Ê¹µÃ±íµ¥ÔªËØÔÚ ie ÏÂÄÜ¼Ì³Ð×ÖÌå´óÐ¡ */
+}
+
+/* ÖØÖÃ±í¸ñÔªËØ */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+}
+
+/* ÖØÖÃ hr */
+hr {
+    border: none;
+    height: 1px;
+}
+
+/* ÈÃ·Çieä¯ÀÀÆ÷Ä¬ÈÏÒ²ÏÔÊ¾´¹Ö±¹ö¶¯Ìõ£¬·ÀÖ¹Òò¹ö¶¯ÌõÒýÆðµÄÉÁË¸ */
+html { overflow-y: scroll; }

@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+	background-color: black;
+}
+
+/*********************登录页面******************************/
+.box {
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+	top: 120px;
+	box-shadow:  0 0 5px white;
+	background-color: #c2d3ff;
+	border-radius: 5px;
+	height:303px ;
+}
+.login-box,.resetbox {
+	width: 100%;
+	padding: 30px 100px;
+	position: absolute;
+	z-index: 1;
+}
+
+.title {
+	width: 100%;
+	height: 86px;
+	background-color: #293d66;
+	text-align: center;
+	line-height: 86px;
+	color: white;
+	font-weight: 900;
+}
+
+#sure {
+	float: right;
+	margin-right: 24px;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="60213a7b-b5b5-4e95-a710-991671716a85" name="RemoteYun" url="http://115.159.92.98">
+        <fileTransfer host="115.159.92.98" port="22" rootFolder="/home/ElectronicHealthy" accessType="SFTP" password="dfd3dfdddfc9dfcedfcddfdbdfc8df9bdf9cdf92" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

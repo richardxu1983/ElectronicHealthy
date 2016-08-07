@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+/*********************登录页面******************************/
+.box {
+  background-color: #6699ff;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.login-box {
+	width: 100%;
+	max-width: 500px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+
+	margin-top: -200px;		/*margin-top设置成负值，大小为高度的一半*/
+}
+
+@media screen and (min-width: 500px) {
+	.login-box {
+		left: 50%;
+
+		margin-left: -250px;
+	}
+}
+
+.login-box .login-title {
+	width: 100%;
+	height: 86px;
+	background-color: #293d66;
+	text-align: center;
+	float: left;
+}
+
+.login-box .login-title h2 {
+	color: #fff;
+	line-height: 50px;
+	font-family: "微软雅黑";
+}
+
+.login-box .login-form {
+	width: 100%;
+	max-width: 500px;
+	height: 294px;
+	background-color: #c2d3ff;
+	padding-top: 24px;
+	float: left;
+}
+
+.login-box .form-group {
+	margin: 25px 0;
+}
+
+.login-box .form-group,
+.login-box .input-group,
+.login-box .form-control {
+	height: 40px;
+}
+
+.login-box .btn-sm {
+	margin: 0 auto;
+	padding: 10px 24px;
+	font-size: 16px;
+}
